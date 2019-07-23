@@ -1,5 +1,5 @@
 {
-  "name": "negast-hiera_consul",
+  "name": "bryxxit-hiera_consul",
   "version": "0.1.0",
   "author": "tim",
   "summary": "Module that contains a consul backend for hiera 5.",
