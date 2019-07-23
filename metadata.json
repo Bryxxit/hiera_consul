@@ -2,9 +2,9 @@
   "name": "negast-hiera_consul",
   "version": "0.1.0",
   "author": "tim",
-  "summary": "",
+  "summary": "Module that contains a consul backend for hiera 5.",
   "license": "Apache-2.0",
-  "source": "",
+  "source": "https://github.com/Bryxxit/hiera_consul.git",
   "dependencies": [
 
   ],
