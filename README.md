@@ -6,12 +6,18 @@ This module installs the consul_lookup backend. This backend has only been teste
 
 
 ## Sample configuration
+``yaml
+---
+......
   - name: "consul lookup"
     lookup_key: "consul_lookup"
     uris:
       - 'nodes/%{hostname}'
     options:
        base_uri: 'http://consulserver.org:8500/v1/kv' [Defaults to http://localhost:8500/v1/kv]
+
+``` 
+
 
 
 ## Why should I use this module and how does it work.
@@ -25,7 +31,6 @@ This means you can seperate your hiera data a bit more given a better overview s
 It will merge hashes found in the seperate files. A normal hash is merged but if a diplicate key,array,value is found the latest found value will be used. First nodes/hostname will be collected and then nodes/hostnames/*.
 
 
-## The module is in development 
-so more features/changes are in the works.
-If you have any requests please file an issue.
+## WIP 
+The module is still somewhat new. So feedback and issues are always welcome.
 
