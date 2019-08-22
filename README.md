@@ -6,7 +6,7 @@ This module installs the consul_lookup backend. This backend has only been teste
 
 
 ## Sample configuration
-``yaml
+```yaml
 ---
 ......
   - name: "consul lookup"
